@@ -1,0 +1,25 @@
+/* You can add global styles to this file, and also import other style files */
+.loader {
+  margin-left: 45%;
+  margin-top: 30%;
+  border: 16px solid #505050;
+  border-top: 16px solid olivedrab;
+  border-bottom: 16px solid crimson;
+  border-radius: 50%;
+  width: 120px;
+  height: 120px;
+  animation: spin 1.5s linear infinite;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+#ChatBoxes {
+  margin-top: 10px;
+}
+
+body {
+  background-color: #141414;
+}

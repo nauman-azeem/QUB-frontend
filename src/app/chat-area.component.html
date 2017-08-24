@@ -1,0 +1,6 @@
+<div class="container" id="Header">
+  <div *ngFor="let msgs of messages">
+    <qub-user-chat [message]="msgs[0]"></qub-user-chat>
+    <qub-bot-chat [message]="msgs[1]"></qub-bot-chat>
+  </div>
+</div>
